@@ -1,0 +1,18 @@
+{
+  "name": "snowcap-installer",
+  "version": "0.12.0",
+  "private": true,
+  "description": "Install the Snowcap desktop snowfall app for macOS",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "bin": {
+    "snowcap-install": "scripts/install-snowcap.cjs"
+  },
+  "files": [
+    "scripts/install-snowcap.cjs"
+  ],
+  "os": ["darwin"],
+  "cpu": ["arm64", "x64"],
+  "engines": {
+    "node": ">=18"
+  }
+}

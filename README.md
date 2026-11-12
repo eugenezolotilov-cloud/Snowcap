@@ -28,6 +28,16 @@ Hold **Control (⌃)** and move the pointer along settled snow, such as the uppe
 | Display | Behind windows, over full-screen apps, screenshots and maximum performance |
 | General | Launch at login, restore snowfall defaults and quit |
 
+### Install from Terminal
+
+With Node.js 18 or later and npm installed, run:
+
+```sh
+npm exec --package=https://codeload.github.com/eugenezolotilov-cloud/Snowcap/tar.gz/refs/heads/main -- snowcap-install
+```
+
+The installer verifies the published DMG against a pinned SHA-256 checksum and copies Snowcap into `~/Applications`. To choose another folder, append `--directory "/path/to/folder"`. If that folder already contains `Snowcap.app`, the installer stops so you can move the existing copy first.
+
 ## How it works
 
 - **AppKit and SwiftUI.** AppKit manages the menu bar and transparent, click-through overlays. SwiftUI builds the separate settings window. Preferences are stored locally with `UserDefaults`.
