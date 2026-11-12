@@ -8,6 +8,8 @@ English · [Русский](README.ru.md)
 
 **Requirements:** macOS 14 or later, Apple silicon or Intel. Snowcap runs from the menu bar.
 
+[![Download Snowcap.dmg for macOS](https://img.shields.io/badge/Download%20for%20macOS-DMG-1769D1?style=for-the-badge)](https://raw.githubusercontent.com/eugenezolotilov-cloud/Snowcap/main/downloads/Snowcap.dmg)
+
 ## Install and use
 
 Open `Snowcap.dmg`, drag **Snowcap** into **Applications**, and launch it. The snowflake in the menu bar opens the quick controls for **intensity**, **fall speed**, **pause or resume**, and **direction**. Drag the arrow in the direction pad to tilt the snowfall up to 75° either way. Pausing hides falling flakes and keeps the chosen intensity and existing drifts.
