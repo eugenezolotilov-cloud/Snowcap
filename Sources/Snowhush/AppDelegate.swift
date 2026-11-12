@@ -133,6 +133,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, SPUSta
         }
         menu.addItem(.separator())
         pauseItem = add(snowfallActionTitle, #selector(toggleSnowfall), to: menu)
+        add(tr("clear.snow", fallback: "Clear Snow"), #selector(clearSnow), to: menu)
         let directionTitle = tr("snow.direction", fallback: "Snowfall Direction")
         let directionMenu = NSMenu(title: directionTitle)
         let directionItem = NSMenuItem()

@@ -139,7 +139,7 @@ final class SnowcapSettingsWindow: NSWindowController, NSWindowDelegate {
                     Spacer()
                 }
                 .padding(12)
-                .frame(width: 186)
+                .frame(width: 210)
                 .background(.regularMaterial)
                 Divider()
                 VStack(alignment: .leading, spacing: 0) {
@@ -242,16 +242,6 @@ final class SnowcapSettingsWindow: NSWindowController, NSWindowDelegate {
                 }
                 Slider(value: value, in: 0...200, step: 1) { Text(title) }
                     .labelsHidden()
-                HStack {
-                    Text("0%")
-                    Spacer()
-                    Text("100%")
-                    Spacer()
-                    Text("200%")
-                }
-                .font(.caption2.monospacedDigit())
-                .foregroundStyle(.secondary)
-                .accessibilityHidden(true)
             }
             .padding(.vertical, 3)
         }
