@@ -10,6 +10,8 @@ English · [Русский](README.ru.md)
 
 [![Download Snowcap.dmg for macOS](https://img.shields.io/badge/Download%20for%20macOS-DMG-1769D1?style=for-the-badge)](https://raw.githubusercontent.com/eugenezolotilov-cloud/Snowcap/main/downloads/Snowcap.dmg)
 
+> **macOS security warning.** We do not have a paid [Apple Developer Program membership](https://developer.apple.com/programs/enroll/) (US$99 per year, with local pricing where available). The published build has no Apple-issued Developer ID signature or notarization ticket, so Gatekeeper may warn that it cannot verify the app. This warning reflects the build’s verification status. You can review the [full source code](Sources/Snowhush) and [build Snowcap locally](#build-and-test) from the code you reviewed.
+
 ## Install and use
 
 Open `Snowcap.dmg`, drag **Snowcap** into **Applications**, and launch it. The snowflake in the menu bar opens the quick controls for **intensity**, **fall speed**, **pause or resume**, and **direction**. Drag the arrow in the direction pad to tilt the snowfall up to 75° either way. Pausing hides falling flakes and keeps the chosen intensity and existing drifts.
